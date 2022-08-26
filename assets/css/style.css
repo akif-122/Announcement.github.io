@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.content-header-section .header-text .header-btns img{
+	max-width: 270px;
+}
+
+html{
+	font-size: 62.5%;
+	outline: none !important;
+}
+
+a{
+	text-decoration: none !important;
+}
+body{
+	font-family: Poppins;
+}
+.wrapper{
+	overflow: hidden;
+}
+.br-radius{
+	width: 180px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.app-text{
+	font-size: 12px;
+	color: #fff;
+}
+.br-radius img{
+	width: 100%;
+}
+
+.bg-top-btm{
+	background: linear-gradient( rgb(87, 184, 251),rgb(86, 90, 229));
+
+
+}
+.bg-top-btm:hover{
+	background: linear-gradient(rgb(86, 90, 229),rgb(87, 184, 251));
+	
+}
+
+.btns{
+	padding: 7px 20px !important;
+	border-radius: 30px;
+	font-size: 15px;
+	display: inline-block;
+	margin: 5px;
+	color: #fff !important;
+	font-weight: 500;
+
+}
+
+
+/*
+===============================================
+	NAVABR SECTION START
+===============================================
+*/
+
+	/*----- NAVBAR SECTION START -----*/
+#navbar_top{
+	box-shadow: 0 0 20px -10px grey;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+.header-section .navbar{
+	background: #fff;
+
+
+}
+.header-section .navbar .navbar-brand img{
+	width: 140px;
+	margin-right: 15px;
+}
+.header-section .navbar .navbar-left li a{
+	font-size: 15px;
+	color: #333;
+	font-weight: 500;
+	margin: 0px 8px;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.header-section .navbar .navbar-left li a:hover{
+	color: rgb(86, 90, 229);
+}
+
+.dropDown{
+	position: relative;
+}
+
+.dropDown:hover .dropdownMenu{
+	display: block;
+}
+
+.dropdownMenu{
+	width: 150px;
+	border: 1px solid lightgrey;
+	display: none;
+	background: #fff;
+	position: absolute;
+	z-index: 100;
+}
+.dropdownMenu a{
+	display: block;
+}
+
+
+
+
+
+.header-section .navbar .navbar-left li a.social-icon{
+	font-size: 13px;
+	color: #fff;
+	margin-top: -5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-section .navbar .navbar-right li a .profile-container{
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+}
+.header-section .navbar .navbar-right li a .profile-container .profile-img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #222;
+	margin-right: 10px;
+}
+.header-section .navbar .navbar-right li a .profile-container .profile-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.header-section .navbar .navbar-right li a.top-btn{
+	/*margin-left: 15px;*/
+	display: inline-block;
+	padding: 5px 20px;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 15px;
+	margin-top: 2px;
+}
+.header-section .navbar .navbar-right li a i{
+	font-size: 15px;
+	margin: 10px;
+}
+
+.header-section .navbar .navbar-left li a.top-social{
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	font-size: 11px; 
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -3px;
+}
+
+
+
+/*
+===============================================
+	NAVABR SECTION END
+===============================================
+*/
+
+.content{
+	margin-top: 68px;
+}
+
+/*
+================================================
+	HEADER CONTENT SECTIONS START
+================================================
+*/
+.star{
+	background: url('../img/stars.png');
+	background-position: center;
+	background-size: cover;
+}
+.heading-content{
+	padding: 40px 0;
+	padding-bottom: 70px;
+	background: #0B0C38;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+}
+.heading-content .header-text h1{
+	font-size: 3.5em;
+	font-weight: bold;
+	margin: 10px 0;
+	color: #fff;
+}
+.heading-content .header-text p{
+	font-size: 1.3rem;
+	color: #fff;
+
+}
+
+.heading-content .header-img img{
+	width: 100%;
+}
+/*
+================================================
+	HEADER CONTENT SECTIONS END
+================================================
+*/
+/*
+================================================
+	POST SECTION START
+================================================
+*/
+.post-section{
+	margin: 70px 0;
+}
+
+.post-section .post-detail{
+	margin: 20px 0;
+}
+
+.post-section .post-detail .profile-img img{
+	width: 60px;
+	margin-right: 10px;
+}
+.post-section .post-detail .media-body h4{
+	font-size: 2.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.post-section .post-detail .media-body p{
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+/*
+================================================
+	POST SECTION END
+================================================
+*/
+
+
+/*
+===============================================
+	FOOTER SECTION START
+===============================================
+*/
+.footer-section{
+	padding: 60px 0;
+	padding-bottom: ;
+	background: #0b0c38;
+}
+.footer-section .footer-content{
+	margin: 20px 0;
+}
+.footer-section .footer-content h4{
+	font-size: 16px;
+	color: #fff;
+	margin: 10px 0;
+}
+.footer-section .footer-content ul li a{
+	font-size: 12px;
+	color: #fff;
+	/*margin: 3px 0;*/
+	display: inline-block;
+}
+.footer-section .footer-content:last-child ul li a{
+	margin: 5px 10px;
+
+
+}
+.footer-section .footer-content:last-child ul li a i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: #0b0c38;
+	background: #cdcdd7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-btns img{
+	width: 200px;
+}
+/*
+===============================================
+	FOOTER SECTION END
+===============================================
+*/
+
+
+
+
+
+
+
+
+

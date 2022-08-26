@@ -1,0 +1,37 @@
+.post-view-section{
+
+	margin: 40px 0;
+}
+.post-view-section .post-view-detail .img{
+	margin-top: 20px;
+}
+.post-view-section .post-view-detail .img img{
+	width: 50px;
+}
+.post-view-detail .postView-text .postView-heading{
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+}
+.post-view-detail .postView-text .postView-heading h4{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.post-view-detail .postView-text .postView-heading small{
+	font-size: 1.5rem;
+	margin: 10px;
+	display: inline-block;
+}
+
+.postview-Content{
+	padding: 30px 0;
+}
+.postview-Content p{
+	font-size: 1.5rem;
+}
+
+
+.post-section h1{
+	font-size: 3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
